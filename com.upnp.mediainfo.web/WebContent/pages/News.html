@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script
+	src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
+	
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+  
+  $("#Lyrics").click(function(){
+	    alert('Pete');
+	  });
+});
+</script>
+</head>
+<body>
+
+
+
+	<div data-role="page">
+
+
+
+		<div data-role="header">
+			<a href="#leftpanel1" data-role="button" data-icon="gear" data-inline="true"
+				data-mini="true" class="ui-btn-right"></a>
+
+			<h1>The Title</h1>
+			<br>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="MainPage.html" id="Lyrics">Lyrics</a></li>
+					<li><a href="#">Artist Info</a></li>
+					<li><a href="http://www.google.co.uk" class="ui-btn-active ui-state-persist">News</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /header -->
+
+		<div data-role="content">
+			1986-90: Appearance, tabloids, Bad, films, autobiography, and
+			Neverland: See also: Michael Jackson's health and appearance
+			Jackson's skin had been a medium-brown color for the entire duration
+			of his youth, but starting in the mid-1980s, it gradually grew paler.
+			The change gained widespread media coverage, including rumors that he
+			might be bleaching his skin. According to J. Randy Taraborrelli's
+			biography, in 1986, Jackson was diagnosed with vitiligo and lupus;
+			the vitiligo partially lightened his skin, and the lupus was in
+			remission; both illnesses made him sensitive to sunlight. The
+			treatments he used for his condition further lightened his skin tone,
+			and, with the application of pancake makeup to even out blotches, he
+			could appear very pale. Jackson was also diagnosed with vitiligo in
+			his autopsy. By the mid-1990s several surgeons speculated that he had
+			undergone various nasal surgeries, a forehead lift, thinned lips, and
+			cheekbone surgery--although Jackson denied this and insisted that he
+			only had surgery on his nose. Jackson claimed that he had only two
+			rhinoplasties and no other surgery on his face, although at one point
+			he mentioned having a dimple created in his chin. Jackson lost weight
+			in the early 1980s because of a change in diet and a desire for "a
+			dancer's body". Witnesses reported that he was often dizzy and
+			speculated that he was suffering from anorexia nervosa; periods of
+			weight loss would become a recurring problem later in life. During
+			the course of his treatment, Jackson made two close friends: his
+			dermatologist, Dr. Arnold Klein, and Klein's nurse Debbie Rowe. Rowe
+			eventually became Jackson's second wife and the mother of his two
+			eldest children. He also relied heavily on Klein for medical and
+			business advice. Jackson became the subject of increasingly
+			sensational reports. In 1986, the tabloids ran a story claiming that
+			Jackson slept in a hyperbaric oxygen chamber to slow the aging
+			process; he was pictured lying down in a glass box. Although the
+			claim was untrue, according to tabloid reports that are widely cited,
+			Jackson had disseminated the fabricated story himself. When Jackson
+			bought a chimpanzee called Bubbles from a laboratory, he was reported
+			to be increasingly detached from reality. It was reported that
+			Jackson had offered to buy the bones of Joseph Merrick (the "elephant
+			man") and although untrue, Jackson did not deny the story. Although
+			initially he saw these stories as opportunities for publicity, he
+			stopped leaking untruths to the press as they became more
+			sensational. Consequently the media began making up their own
+			stories. These reports became embedded in the public consciousness,
+			inspiring the nickname "Wacko Jacko", which Jackson came to despise.
+			Responding to the gossip, Jackson remarked to Taraborrelli: <br>
+			<a href="#leftpanel1" data-role="button" data-inline="true"
+				data-mini="true">Reveal</a>
+		</div>
+		<!-- /content -->
+
+
+
+
+		<div data-role="footer" class="footer-docs" data-theme="c">
+			<p class="jqm-version"></p>
+			<p>&copy; 2010, 2013 jQuery Foundation and other contributors</p>
+		</div>
+
+		<div data-role="panel" id="leftpanel1" data-position="left"
+			data-display="reveal" data-dismissible="true" data-theme="a">
+
+			<h3>Left Panel: Reveal</h3>
+			<p>
+				This panel is positioned on the left with the reveal display mode.
+				The panel markup is <em>after</em> the header, content and footer in
+				the source order.
+			</p>
+			<p>To close, click off the panel, swipe left or right, hit the
+				Esc key, or use the button below:</p>
+			<a href="#demo-links" data-rel="close" data-role="button"
+				data-theme="a" data-icon="delete" data-inline="true">Close panel</a>
+
+		</div>
+		<!-- /leftpanel1 -->
+
+
+	</div>
+	<!-- /page -->
+
+</body>
+</html>
